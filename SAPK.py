@@ -2,15 +2,15 @@ import os
 import time
 
 # Set the APK file path
-apk_file_path = 'C:\\Users\\notsi\PycharmProjects\SAPK.py\SAPK PY'
+apk_file_path = 'C:\\User\\notsi\PycharmProjects\SAPK.py\SAPK PY\\apk\\SpinTheBottleZone .apk'
 
 # Function to check if the Android device is connected
 def is_device_connected():
-    return os.system('adb devices') == 0
+    return os.system('C:\\Users\\notsi\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb devices') == 0
 
 # Function to install the APK
 def install_apk():
-    os.system(f'adb install -r "{apk_file_path}"')
+    os.system(f'C:\\Users\\notsi\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb install -r "{apk_file_path}"')
 
 # Main function
 def main():
