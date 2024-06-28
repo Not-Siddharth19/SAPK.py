@@ -2,7 +2,7 @@ import os
 import time
 
 # Set the APK file path
-apk_file_path = 'C:\\Users\\notsi\\PycharmProjects\\Apkinstall File\\.venv\\apk'
+apk_file_path = 'C:\\Users\\notsi\PycharmProjects\SAPK.py\SAPK PY'
 
 # Function to check if the Android device is connected
 def is_device_connected():
